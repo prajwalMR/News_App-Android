@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newsapp.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="101dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="1dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="101dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="1dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="105dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="78dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageView7"
+        android:layout_width="105dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="1dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageButton
+        android:id="@+id/imageView10"
+        android:layout_width="98dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="1dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageButton
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="1dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="78dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Bloomberg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="TechCrunch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="BBC News"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:text="ABC News"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="The Verge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:text="CNN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="The Hindu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="2dp"
+        android:text="Hacker News"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <ImageButton
+        android:id="@+id/imageView4"
+        android:layout_width="101dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="1dp"
+        android:onClick="getNewsFromChannel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="225dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Search For News Topics"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="118dp"
+        android:layout_height="51dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:onClick="getNewsFromTopic"
+        android:text="Search"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
